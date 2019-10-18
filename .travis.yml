@@ -22,6 +22,6 @@ script:
     fi
   - export VROOT=$(pwd)
   - cd ./compiler
-  - make -d
+  - make
   - make test
 
