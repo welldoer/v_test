@@ -1,9 +1,9 @@
 module time
 
 // in ms
-fn ticks() double {
-	return double(0)
-}
+//fn ticks() double {
+//	return double(0)
+//}
 
 fn sleep(seconds int) {
 	C.sleep(seconds)
